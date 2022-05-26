@@ -1020,4 +1020,4 @@ for square in squares:
 
 print(sum_1)
 print (sum_2)
-ß
+
