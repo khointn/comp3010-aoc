@@ -1,8 +1,3 @@
-from itertools import count
-from tokenize import String
-from turtle import Turtle
-
-
 inputStrings = input()
 
 
