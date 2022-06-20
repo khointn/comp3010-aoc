@@ -311,10 +311,7 @@ def convert(x, action):
     if action == "off":
         return 0
     if action == "toggle":
-        if x == 1:
-            return 0
-        else:
-            return 1
+        return 1 - x
 
 convert_vect = np.vectorize(convert)
 
